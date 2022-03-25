@@ -1,0 +1,31 @@
+article{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header{
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    justify-content: center;
+    }
+
+.newnote{
+    position: absolute;
+    margin-left: 200px;   
+}
+
+.textarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.save{
+    display: flex;
+}
