@@ -6,20 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="CSS/style.css" rel="stylesheet" type="text/CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
 </head>
-<body style="background-color:#f6c177;">
+
+<body>
     <nav>      
-    
         <article>
-            <header><a href="">About</a></header>
-            <header><a href="">Docs</a></header>
+            <header>About</header>
+            <header>Docs</header>
         </article>
+
+        <div class= "mynote">
+            <section>my notes</section>
+        </div>
+
+        <div class= "note">
+            <section>note one</section>
+            <section>note two</section>
+        </div>
 
         <div>
             <footer>created by Hazen</footer>
         </div>
 
-        <div class = "sidebar">
+        <div class= "sidebar">
             <button type="button">≡</button>
         </div>
 
@@ -34,12 +46,12 @@ your note here
         </div>
 
         <div class = "save">
-            <button type="button">save</button>
+            <article>
+                <button type="button" style="background-color: #3e8fb0;">save</button>
+                <button type="button" style="background-color: red;">delete</button>
+            </article>
         </div>
         
-        <div class= "delete">
-            <button type="button">delete</button>
-        </div>
     </nav>
 </body>
 </html>

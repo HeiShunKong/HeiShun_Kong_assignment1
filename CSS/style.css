@@ -1,10 +1,13 @@
 article{
     display: flex;
     justify-content: flex-end;
+    font-family: 'Red Hat Mono', monospace;
 }
 
 header{
     padding: 10px;
+    font-family: 'Red Hat Mono', monospace;
+    color: #6e6a86;
 }
 
 footer{
@@ -13,19 +16,50 @@ footer{
     width: 100%;
     bottom: 0px;
     justify-content: center;
+    color: #c4a7e7; 
     }
 
+.createnote{
+    position: absolute;
+    margin-left: 400px;   
+    color: #9ccfd8;
+}
 .newnote{
     position: absolute;
-    margin-left: 200px;   
+    margin-left: 350px;  
+}
+
+
+.sidebar{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -100px;
 }
 
 .textarea{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Red Hat Mono', monospace;
 }
 
 .save{
     display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 950px;
+}
+
+.mynote{
+    font-weight: bold;
+}
+
+.note{
+    color: #c4a7e7; 
+    font-family: 'Red Hat Mono', monospace;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(90deg, #f6c177 20%, #f2e9e1 20%);
 }
